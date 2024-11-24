@@ -1,0 +1,62 @@
+/*--------Nav Button----------------------------------------*/
+#theButton {
+    border: none;
+    background: none;
+    font-size: 2rem;
+    color: #555;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    &::before {
+        content: "\2630";
+    }
+} //end #theButton
+
+#theButton.open::before {
+    content: "\2715";
+    font-size: 1.6rem;
+} //end open button
+
+/*--------Navigation Bar----------------------------------------*/
+#theNav {
+    background-color: $secondaryColor;
+    height: 0;
+    overflow: hidden;
+    list-style-type: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+li.active a {
+    background-color: $primaryColor;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#theNav.open {
+    height: auto;
+} //end #theNav
+
+/*--------submenus ----------------------------------------*/
+.parent>a::after {
+    content: "\25BC";
+    font-size: .75rem;
+    color: rgba (255, 255, 255, .5);
+    float: right;
+}
+
+.parent ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: $primaryColor;
+    display: none;
+}
+
+.parent:hover ul {
+    display: block;
+}

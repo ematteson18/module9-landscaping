@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Green Haven Landscaping</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="headerWrapper">
+        <header>
+            <img src="images/logo1x.png" alt="logo"
+                srcsset="images/logo1x.png, images/logo2x.png 2x, images/logo3x.png">
+            <span>Green Haven Landscaping</span>
+            <a href="tel:5555555555">555-5555</a>
+
+        </header>
+    </div><!-- end header wrapper -->
+
+
+
+    <div id="navWrapper">
+        <nav>
+            <button id="theButton"></button>
+            <ul id="theNav">
+
+                <li><a href="#">Clients</a></li>
+                <li class="parent"><a href="#">Services</a>
+                    <ul>
+                        <li><a href="">Design</a></li>
+                        <li><a href="">Mowing</a></li>
+                        <li><a href="">Mulching</a></li>
+                        <li><a href="">Xeroscaping</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#">About</a></li>
+                <li class="parent"><a href="#">Our Team</a>
+                    <ul>
+                        <li><a href="">Peter</a></li>
+                        <li><a href="">Paul</a></li>
+                        <li><a href="">Mary</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div> <!-- end nav wrapper -->
+
+
+
+    <div id="mainWrapper">
+        <main>
+            <div class="hero">
+               
+            </div>
+
+            <div class="swiper">
+                
+                <div class="swiper-wrapper">
+                    <div class="herotext">
+                        <h3> Swiper no swiping</h3>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        
+                        
+                        <picture>
+                            <!-- Smaller image for small screens -->
+                            <source srcset="images/sliderA-small.webp" media="(max-width: 746px)">
+
+                            <!-- Medium image for medium screens -->
+                            <source srcset="images/sliderA-medium.webp" media="(max-width: 1172px)">
+
+                            <!-- Fallback to large image for large screens -->
+                            <img src="images/sliderA-large.webp" alt="Slider A" width="1600px" height="800">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="images/sliderB-small.webp" media="(max-width: 746px)">
+                            <source srcset="images/sliderB-medium.webp" media="(max-width: 1172px)">
+                            <img src="images/sliderB-large.webp" alt="Slider B" width="1600px" height="800">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="images/sliderC-small.webp" media="(max-width: 746px)">
+                            <source srcset="images/sliderC-medium.webp" media="(max-width: 1172px)">
+                            <img src="images/sliderC-large.webp" alt="Slider C" width="1600px" height="800">
+                        </picture>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                
+            </div>
+            <div class="parent2">
+                <section>
+                    <h2>Design</h2>
+                    <img src="images/landscaping.webp" width="400" height="250" alt="yard" class="e2e">
+                    <img src="images/grass.png" width="400" height="87 " alt="mask" class="e2e">
+                </section>
+
+                <section>
+                    <h2>Mowing</h2>
+                    <img src="images/mower.webp" width="400" height="250" alt="yard" class="e2e">
+                    <img src="images/squiggley.png" width="400" height="87 " alt="mask" class="e2e">
+                </section>
+
+                <section>
+                    <h2>Xeroscaping</h2>
+                    <img src="images/zero.png" width="400" height="250" alt="yard" class="e2e">
+                    <img src="images/grass.png" width="400" height="87 " alt="mask" class="e2e">
+                </section>
+
+                <section>
+                    <h2>Mulching</h2>
+                    <img src="images/mulch.webp" width="400" height="250" alt="yard" class="e2e">
+                    <img src="images/squiggley.png" width="400" height="87 " alt="mask" class="e2e">
+                </section>
+
+            </div>
+
+            <div class="parent">
+
+                <section>
+                    <img src="images/person1.webp" width="300" height="300" alt="customer one">
+                    <p>We couldn’t be happier with the work they did for us! </p>
+                </section>
+                <section>
+                    <img src="images/person2.webp" width="300" height="300" alt="customer two">
+                    <p>They stayed within our budget without cutting corners. We’ve received so many compliments from
+                        neighbors and friends. </p>
+                </section>
+            </div>
+
+
+
+        </main>
+    </div><!-- end main wrapper -->
+
+    <div id="footerWrapper">
+        <footer>
+            <p>Copyright &copy; 2025 Design Thinking Inc. All rights reserved.
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Clients</a>
+            </p>
+        </footer>
+    </div> <!-- end footer wrapper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
