@@ -481,6 +481,13 @@ div.parent2 section a {
   text-decoration: none;
 }
 
+#theNav {
+  padding: 0.5rem;
+}
+#theNav li {
+  padding: 10px;
+}
+
 @media only screen and (max-width: 34.9375rem) {
   /*--------Nav Button----------------------------------------*/
   #theButton {
